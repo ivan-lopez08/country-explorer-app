@@ -1,0 +1,9 @@
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  margin-top: 0;
+  color: var(--color-muted);
+  max-width: 700px;
+}
