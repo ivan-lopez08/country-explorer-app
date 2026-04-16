@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +9,7 @@
     />
     <title>Favorites | Country Explorer App</title>
 
-    <link rel="icon" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/src/styles/base.css" />
     <link rel="stylesheet" href="/src/styles/layout.css" />
     <link rel="stylesheet" href="/src/styles/components.css" />
@@ -20,7 +20,10 @@
   <body>
     <header class="site-header">
       <div class="container header-content">
-        <a href="/index.html" class="logo">Country Explorer</a>
+        <div class="logo-container">
+          <img src="/logo.png" alt="Country Explorer Logo" class="logo" />
+          <a href="/index.html" class="logo">Country Explorer</a>
+        </div>
 
         <nav class="main-nav" aria-label="Main navigation">
           <a href="/index.html" class="nav-link">Home</a>
@@ -32,9 +35,7 @@
     <main class="container">
       <section class="hero">
         <h1>Your favorite countries</h1>
-        <p>
-          Here you will see the countries you save for quick access later.
-        </p>
+        <p>Here you will see the countries you save for quick access later.</p>
       </section>
 
       <section class="panel">
@@ -45,11 +46,11 @@
       </section>
     </main>
     <footer class="site-footer">
-  <div class="container footer-content">
-    <p>Ivan Andres Lopez Mejia</p>
-    <p>©2026</p>
-    <p>Country Explorer App</p>
-  </div>
-</footer>
+      <div class="container footer-content">
+        <p>Ivan Andres Lopez Mejia</p>
+        <p>©2026</p>
+        <p>Country Explorer App</p>
+      </div>
+    </footer>
   </body>
 </html>
